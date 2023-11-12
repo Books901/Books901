@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>School 270</h1>
+  </header>
+
+  <nav>
+    <a href="#" onclick="showContent('home')">Teoria</a>
+    <a href="#" onclick="showContent('about')">Prática</a>
+    <a href="#" onclick="showContent('contact')">Dicas </a>
+  </nav>
+<!---teoria-->
+  <section id="home">
+    <h2 class="referente">
+      Básico
+    </h2>
+    
+
+    <details>
+  <summary>Estrutura HTML</summary>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+</details>
+
+<details>
+  <summary>Lorem ipsum 2</summary>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+</details>
+
+<details>
+  <summary>Lorem ipsum 3</summary>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+</details>
+
+  </section>
+<!--prarica-->
+  <section id="about" style="display: none;">
+    <h2>Sobre Nós</h2>
+    <p>Conheça mais sobre nossa história e missão.</p>
+  </section>
+<!--dicas-->
+  <section id="contact" style="display: none;">
+    <h2>Entre em Contato</h2>
+    <p>Envie-nos uma mensagem ou visite nossa sede.</p>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
